@@ -130,6 +130,7 @@ public class MoneyPAuthService : IDisposable
             Content = content
         };
         request.Headers.CacheControl = new CacheControlHeaderValue { NoCache = true };
+       
 
         // Envia a requisição
         var response = await _httpClient.SendAsync(request, cancellationToken);
@@ -158,5 +159,6 @@ public class MoneyPAuthService : IDisposable
         _tokenLock.Dispose();
         _httpClient.Dispose();
         _jwtGenerator.Dispose();
+        GC.SuppressFinalize(this);
     }
 }

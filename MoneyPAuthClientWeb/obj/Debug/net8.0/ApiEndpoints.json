@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MoneyPAuthClientWeb.Controllers.WeatherForecastController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

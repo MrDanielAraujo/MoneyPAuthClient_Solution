@@ -9,15 +9,10 @@ namespace MoneyPAuthClient.Services;
 /// <summary>
 /// Serviço responsável pela geração de tokens JWT assinados com RS256
 /// </summary>
-public class JwtGenerator
+public class JwtGenerator(AuthConfig config)
 {
-    private readonly AuthConfig _config;
+    private readonly AuthConfig _config = config ?? throw new ArgumentNullException(nameof(config));
     private RSA? _privateKey;
-
-    public JwtGenerator(AuthConfig config)
-    {
-        _config = config ?? throw new ArgumentNullException(nameof(config));
-    }
 
     /// <summary>
     /// Carrega a chave privada RSA do arquivo PEM
@@ -30,15 +25,18 @@ public class JwtGenerator
         if (_privateKey != null)
             return _privateKey;
 
-        if (!File.Exists(_config.PrivateKeyPath))
+        string diretorioBase = AppDomain.CurrentDomain.BaseDirectory;
+        string caminhoArquivo = Path.Combine(diretorioBase, _config.PrivateKeyPath);
+
+        if (!File.Exists(caminhoArquivo))
         {
             throw new FileNotFoundException(
-                $"Arquivo de chave privada não encontrado: {_config.PrivateKeyPath}");
+                $"Arquivo de chave privada não encontrado: {caminhoArquivo}");
         }
 
         try
         {
-            var privateKeyPem = File.ReadAllText(_config.PrivateKeyPath);
+            var privateKeyPem = File.ReadAllText(caminhoArquivo);
             _privateKey = RSA.Create();
             _privateKey.ImportFromPem(privateKeyPem);
             return _privateKey;

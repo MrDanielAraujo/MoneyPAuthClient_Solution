@@ -42,7 +42,7 @@ public class TokenResponse
     /// </summary>
     /// <param name="bufferSeconds">Margem de segurança em segundos antes da expiração</param>
     /// <returns>True se o token está expirado ou próximo de expirar</returns>
-    public bool IsExpired(int bufferSeconds = 60)
+    public bool IsExpired(int bufferSeconds = 3600)
     {
         return DateTime.UtcNow >= ObtainedAt.AddSeconds(ExpiresIn - bufferSeconds);
     }

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danielaraujogomes/Downloads/MoneyPAuthClient_Solution/src/MoneyPAuthClient/MoneyPAuthClient.csproj": {}
+    "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj": {}
   },
   "projects": {
-    "/Users/danielaraujogomes/Downloads/MoneyPAuthClient_Solution/src/MoneyPAuthClient/MoneyPAuthClient.csproj": {
+    "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danielaraujogomes/Downloads/MoneyPAuthClient_Solution/src/MoneyPAuthClient/MoneyPAuthClient.csproj",
+        "projectUniqueName": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj",
         "projectName": "MoneyPAuthClient",
-        "projectPath": "/Users/danielaraujogomes/Downloads/MoneyPAuthClient_Solution/src/MoneyPAuthClient/MoneyPAuthClient.csproj",
-        "packagesPath": "/Users/danielaraujogomes/.nuget/packages/",
-        "outputPath": "/Users/danielaraujogomes/Downloads/MoneyPAuthClient_Solution/src/MoneyPAuthClient/obj/",
+        "projectPath": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj",
+        "packagesPath": "C:\\Users\\daniel.gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/danielaraujogomes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\daniel.gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,12 +43,23 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -57,15 +74,19 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -84,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
