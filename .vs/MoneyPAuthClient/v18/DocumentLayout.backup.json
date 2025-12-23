@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\services\\moneypauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\services\\moneypauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\services\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\services\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\services\\moneypauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\services\\moneypauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\moneypauthclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\moneypauthclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70C33B75-1ACC-4D31-8060-41E376D946AC}|MoneyPAuthClientWeb\\MoneyPAuthClientWeb.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\moneypauthclientweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C33B75-1ACC-4D31-8060-41E376D946AC}|MoneyPAuthClientWeb\\MoneyPAuthClientWeb.csproj|solutionrelative:moneypauthclientweb\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\services\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\services\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\src\\moneypauthclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\MoneyPAuthClient\\MoneyPAuthClient.csproj|solutionrelative:src\\moneypauthclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70C33B75-1ACC-4D31-8060-41E376D946AC}|MoneyPAuthClientWeb\\MoneyPAuthClientWeb.csproj|c:\\users\\daniel.gomes\\source\\repos\\moneypauthclient_solution\\moneypauthclientweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70C33B75-1ACC-4D31-8060-41E376D946AC}|MoneyPAuthClientWeb\\MoneyPAuthClientWeb.csproj|solutionrelative:moneypauthclientweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\Program.cs",
               "RelativeDocumentMoniker": "src\\MoneyPAuthClient\\Program.cs",
               "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\Program.cs",
               "RelativeToolTip": "src\\MoneyPAuthClient\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwE8AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T15:27:38.947Z",
               "IsPinned": true,
@@ -72,51 +64,37 @@
               "RelativeToolTip": "src\\MoneyPAuthClient\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T19:53:32.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T19:53:32.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\appsettings.json",
               "RelativeDocumentMoniker": "src\\MoneyPAuthClient\\appsettings.json",
               "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\appsettings.json",
               "RelativeToolTip": "src\\MoneyPAuthClient\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-22T18:25:04.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MoneyPAuthService.cs",
               "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\Services\\MoneyPAuthService.cs",
               "RelativeDocumentMoniker": "src\\MoneyPAuthClient\\Services\\MoneyPAuthService.cs",
               "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\Services\\MoneyPAuthService.cs",
               "RelativeToolTip": "src\\MoneyPAuthClient\\Services\\MoneyPAuthService.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAnwGQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T15:48:34.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\MoneyPAuthClientWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "MoneyPAuthClientWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\MoneyPAuthClientWeb\\appsettings.json",
-              "RelativeToolTip": "MoneyPAuthClientWeb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-22T15:28:51.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "JwtGenerator.cs",
               "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\Services\\JwtGenerator.cs",
               "RelativeDocumentMoniker": "src\\MoneyPAuthClient\\Services\\JwtGenerator.cs",
@@ -124,13 +102,12 @@
               "RelativeToolTip": "src\\MoneyPAuthClient\\Services\\JwtGenerator.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T12:04:49.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T12:04:49.379Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MoneyPAuthClient",
+              "Title": "MoneyPAuthClient.csproj",
               "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj",
               "RelativeDocumentMoniker": "src\\MoneyPAuthClient\\MoneyPAuthClient.csproj",
               "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\src\\MoneyPAuthClient\\MoneyPAuthClient.csproj",
@@ -138,19 +115,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-23T12:19:46.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\MoneyPAuthClientWeb\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "MoneyPAuthClientWeb\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\daniel.gomes\\source\\repos\\MoneyPAuthClient_Solution\\MoneyPAuthClientWeb\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "MoneyPAuthClientWeb\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywCgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T15:18:28.18Z",
               "EditorCaption": ""
             },
             {
@@ -163,8 +127,7 @@
               "RelativeToolTip": "src\\MoneyPAuthClient\\Models\\TokenResponse.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T19:53:49.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T19:53:49.412Z"
             }
           ]
         }

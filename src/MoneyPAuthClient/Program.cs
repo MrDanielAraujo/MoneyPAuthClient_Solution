@@ -77,7 +77,7 @@ class Program
             Console.WriteLine("===========================================\n");
 
             using var authorizedClient = await authService.CreateAuthorizedClientAsync();
-            Console.WriteLine($"HttpClient configurado com Authorization: Bearer {MaskString(accessToken, 30)}");
+            Console.WriteLine($"HttpClient configurado com Authorization: Bearer {accessToken}");
             Console.WriteLine("\nPronto para fazer requisições à API MoneyP!");
         }
         catch (FileNotFoundException ex)
