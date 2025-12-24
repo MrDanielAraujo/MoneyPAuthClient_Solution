@@ -3,6 +3,7 @@
     "MoneyPAuthClient": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -20,6 +21,7 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "launchUrl": "swagger",
     "iisExpress": {
       "applicationUrl": "http://localhost:51298/",
       "sslPort": 44318

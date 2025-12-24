@@ -25,21 +25,27 @@ public class Executa : ControllerBase
             configuration.GetSection("AuthConfig").Bind(authConfig);
 
             // Valida as configurações
-            ValidateConfig(authConfig);
+            //// ValidateConfig(authConfig);
            
             // Cria o serviço de autenticação
             using var authService = new MoneyPAuthService(authConfig);
 
             // Obtém o token de acesso
-            var accessToken = await authService.GetAccessTokenAsync();
+            //// var accessToken = await authService.GetAccessTokenAsync();
 
-            var tokenResponse = authService.GetCurrentTokenResponse();
-            if (tokenResponse != null)
-            {
-                return Ok(tokenResponse);
-            }
+            //// var tokenResponse = authService.GetCurrentTokenResponse();
+            //// if (tokenResponse != null)
+            //// {
+            ////    return Ok(tokenResponse);
+            //// }
 
             using var authorizedClient = await authService.CreateAuthorizedClientAsync();
+            
+            
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://api.ext.dbs.moneyp.dev.br/api/Conta/Saldo?NumeroBanco=274&Conta.Agencia=0001&Conta.AgenciaDigito=8&Conta.Conta=244838&Conta.ContaDigito=9&Conta.ContaPgto=02448389&Conta.TipoConta=3&Conta.ModeloConta=1");
+            var response = await authorizedClient.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            return Ok( await response.Content.ReadAsStringAsync());
             
         }
         catch (FileNotFoundException ex)
@@ -72,7 +78,7 @@ public class Executa : ControllerBase
             return BadRequest();
         }
 
-        return Ok(new { message = "Tudo deu certo" });
+        //// return Ok(new { message = "Tudo deu certo" });
     }
 
     /// <summary>
