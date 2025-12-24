@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MoneyPAuthClient.Controllers.Executa",
+    "Method": "Rum",
+    "RelativePath": "api/Executa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

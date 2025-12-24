@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoneyPAuthClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d67094e876c82abb55b112ab0e0702ba5396e5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49c70ccbb1261e394eb40283dacb23ad411e9a79")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoneyPAuthClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoneyPAuthClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
